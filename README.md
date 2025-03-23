@@ -1,5 +1,7 @@
 # CSF364 Assignment 1 by Rishabh Goyal (2021B1A72320H), Yash Gupta(2021B4A72699H), Soham Mangle(2021B3A71068H) and Vani Jain(2021B1A73126H).
 
+Webpage can be accessed on: https://rish12311.github.io/CSF364_Assignment1/webpage.html 
+
 This repository contains implementations of three algorithms for solving the **Maximum Clique Problem**: 
 - **Tomita Algorithm**
 - **Eppstein Algorithm**
@@ -101,3 +103,10 @@ Each algorithm outputs the following:
 - **Histogram** of clique sizes
 - **Vertices** in the maximum clique
 - **Execution time**
+
+Contributions:
+
+Rishabh Goyal: Worked on website creation and analysis of the results.
+Yash Gupta: Worked on report making and Chiba's algorithm.
+Vani Jain: Worked on Eppstein's algorithm.
+Soham Mangle: Worked on Tomita's algorithm.
