@@ -104,9 +104,13 @@ Each algorithm outputs the following:
 - **Vertices** in the maximum clique
 - **Execution time**
 
-Contributions:
+## Contributions  
 
-Rishabh Goyal: Worked on website creation and analysis of the results.
-Yash Gupta: Worked on report making and Chiba's algorithm.
-Vani Jain: Worked on Eppstein's algorithm.
-Soham Mangle: Worked on Tomita's algorithm.
+| Name           | Responsibilities                                      |
+|---------------|------------------------------------------------------|
+| **Rishabh Goyal**  | Website development & results analysis            |
+| **Yash Gupta**    | Report writing & implementation of Chiba's algorithm |
+| **Vani Jain**     | Implementation of Eppstein's algorithm            |
+| **Soham Mangle**  | Implementation of Tomita's algorithm              |
+
+
