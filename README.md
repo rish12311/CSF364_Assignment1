@@ -1,55 +1,106 @@
-Maximum Clique Algorithm Implementations
-This repository contains implementations of three algorithms for solving the Maximum Clique Problem: Tomita, Eppstein, and Chiba & Nishizeki. These implementations are written in C++ and optimized for performance.
-Setup Requirements
+# Maximum Clique Algorithm Implementations
 
-C++ compiler with C++17 support
-Unix-like environment (Linux, macOS, WSL, etc.)
+This repository contains implementations of three algorithms for solving the **Maximum Clique Problem**: 
+- **Tomita Algorithm**
+- **Eppstein Algorithm**
+- **Chiba & Nishizeki Algorithm**
 
-Preprocessing
-Before running the algorithms, you need to preprocess your input data:
+These implementations are written in **C++** and optimized for performance.
 
-Compile the preprocessing script:
-bashCopyg++ -std=c++17 -O3 -o preprocess preprocess.cpp
+---
+## 📌 Setup Requirements
 
-Run the preprocessing script:
-bashCopy./preprocess <raw_input_file>.txt <processed_output_file>.txt
+To run these algorithms, ensure you have:
+- A **C++ compiler** with C++17 support
+- A **Unix-like environment** (Linux, macOS, WSL, etc.)
 
-Use the generated <processed_output_file>.txt as input to the algorithm executables.
+---
+## ⚙️ Preprocessing
 
-Compilation
-Each algorithm is implemented in a separate C++ file. Compile them using:
-bashCopy# Compile Tomita Algorithm
+Before executing the algorithms, you need to preprocess your input data.
+
+### **1️⃣ Compile the Preprocessing Script**
+```bash
+g++ -std=c++17 -O3 -o preprocess preprocess.cpp
+```
+
+### **2️⃣ Run the Preprocessing Script**
+```bash
+./preprocess <raw_input_file>.txt <processed_output_file>.txt
+```
+
+Use the generated `<processed_output_file>.txt` as input for the algorithms.
+
+---
+## 🚀 Compilation
+
+Each algorithm is implemented in a separate C++ file. Compile them as follows:
+
+### **Tomita Algorithm**
+```bash
 g++ -std=c++17 -O3 -o tomita Tomita.cpp
+```
 
-# Compile Eppstein Algorithm
+### **Eppstein Algorithm**
+```bash
 g++ -std=c++17 -O3 -o eppstein Eppstein.cpp
+```
 
-# Compile Chiba and Nishizeki Algorithm
+### **Chiba & Nishizeki Algorithm**
+```bash
 g++ -std=c++17 -O3 -o chiba Chiba.cpp
-Execution
-Run each algorithm with your preprocessed input file:
-bashCopy# Run Tomita Algorithm
+```
+
+---
+## ▶️ Execution
+
+Run each algorithm using the preprocessed input file:
+
+### **Tomita Algorithm**
+```bash
 ./tomita <input_file>.txt
+```
 
-# Run Eppstein Algorithm
+### **Eppstein Algorithm**
+```bash
 ./eppstein <input_file>.txt
+```
 
-# Run Chiba and Nishizeki Algorithm
+### **Chiba & Nishizeki Algorithm**
+```bash
 ./chiba <input_file>.txt
-Replace <input_file>.txt with the path to your preprocessed data file.
-Algorithm Descriptions
+```
 
-Tomita Algorithm: An exact algorithm for finding the maximum clique in a graph using a branch and bound approach with pivot selection.
-Eppstein Algorithm: An algorithm for finding maximal cliques using a recursive approach with vertex ordering.
-Chiba and Nishizeki Algorithm: An algorithm designed to efficiently find all maximal cliques in sparse graphs.
+Replace `<input_file>.txt` with the path to your processed data file.
 
-Input Format
-The input file should be in the following format:
-Each line should have two integers u and v representing an edge between vertices u and v.
+---
+## 📖 Algorithm Descriptions
 
-Output
-Each algorithm will output:
+### **1️⃣ Tomita Algorithm**
+An exact algorithm for finding the **maximum clique** in a graph using a **branch and bound** approach with **pivot selection**.
 
-The histogram of each clique size
-The vertices in the maximum clique
-The execution time
+### **2️⃣ Eppstein Algorithm**
+A recursive algorithm for finding **maximal cliques** using an optimized **vertex ordering** strategy.
+
+### **3️⃣ Chiba & Nishizeki Algorithm**
+A specialized algorithm designed to efficiently find **all maximal cliques** in **sparse graphs**.
+
+---
+## 📂 Input Format
+
+The input file should contain edges of the graph in the following format:
+```
+u v  # An edge between vertex u and vertex v
+```
+Each line should contain two integers **u** and **v**, representing an **undirected edge** between vertices **u** and **v**.
+
+---
+## 📊 Output
+
+Each algorithm outputs the following:
+- **Histogram** of clique sizes
+- **Vertices** in the maximum clique
+- **Execution time**
+
+---
+### 🔗 Happy Coding! 🚀
