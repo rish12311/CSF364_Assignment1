@@ -1,4 +1,4 @@
-# Maximum Clique Algorithm Implementations
+# CSF364 Assignment 1 by Rishabh Goyal, Yash Gupta, Soham Mangle and Vani Jain
 
 This repository contains implementations of three algorithms for solving the **Maximum Clique Problem**: 
 - **Tomita Algorithm**
@@ -101,6 +101,3 @@ Each algorithm outputs the following:
 - **Histogram** of clique sizes
 - **Vertices** in the maximum clique
 - **Execution time**
-
----
-### 🔗 Happy Coding! 🚀
