@@ -1,4 +1,4 @@
-# CSF364 Assignment 1 by Rishabh Goyal, Yash Gupta, Soham Mangle and Vani Jain
+# CSF364 Assignment 1 by Rishabh Goyal (2021B1A72320H), Yash Gupta(2021B4A72699H), Soham Mangle(2021B3A71068H) and Vani Jain(2021B1A73126H).
 
 This repository contains implementations of three algorithms for solving the **Maximum Clique Problem**: 
 - **Tomita Algorithm**
