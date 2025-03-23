@@ -1,4 +1,23 @@
-# CSF364 Assignment 1 by Rishabh Goyal (2021B1A72320H), Yash Gupta(2021B4A72699H), Soham Mangle(2021B3A71068H) and Vani Jain(2021B1A73126H).
+# CSF364 - Assignment 1  
+
+**By:**  
+- **Rishabh Goyal** (2021B1A72320H)  
+- **Yash Gupta** (2021B4A72699H)  
+- **Soham Mangle** (2021B3A71068H)  
+- **Vani Jain** (2021B1A73126H)  
+
+---
+
+## Contributions  
+
+| Name           | Responsibilities                                      |
+|---------------|------------------------------------------------------|
+| **Rishabh Goyal**  | Website development & results analysis            |
+| **Yash Gupta**    | Report writing & implementation of Chiba's algorithm |
+| **Vani Jain**     | Implementation of Eppstein's algorithm            |
+| **Soham Mangle**  | Implementation of Tomita's algorithm              |
+
+Each team member contributed significantly to different aspects of the project, ensuring a well-rounded and comprehensive approach.  
 
 Webpage can be accessed on: https://rish12311.github.io/CSF364_Assignment1/webpage.html 
 
